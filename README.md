@@ -18,6 +18,9 @@ Core specs:
 
 PCB size is to be as small as possible to fit into a USB Type-A female socket on a laptop.
 
+### Links:
+ * Sourceforge description: http://usbdm.sourceforge.net/USBDM_V4.9/USBDM_JS16/html/index.html
+
 ### Features:
 
 This version of the code & extended hardware provides the following features:
