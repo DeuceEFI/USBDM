@@ -1,0 +1,164 @@
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Wed 11 Apr 2012 12:43:44 PM EDT
+
+BeginCmp
+TimeStamp = /4F77507F;
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F64DD4D;
+Reference = C2;
+ValeurCmp = 18pF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F64DD56;
+Reference = C4;
+ValeurCmp = 18pF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F774587;
+Reference = C5;
+ValeurCmp = 10uF/10V;
+IdModule  = cap-master-TT-050-080;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F77456F;
+Reference = C6;
+ValeurCmp = 10uF/10V;
+IdModule  = cap-master-TT-050-080;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F774522;
+Reference = C7;
+ValeurCmp = 100nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F77453A;
+Reference = C8;
+ValeurCmp = 470nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F64DFEB;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F64E5E7;
+Reference = P1;
+ValeurCmp = USB-A-H;
+IdModule  = USB_A;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F775AE5;
+Reference = P2;
+ValeurCmp = BDM_3X2;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F64E046;
+Reference = P3;
+ValeurCmp = BL;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F64E646;
+Reference = R1;
+ValeurCmp = 33;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F64E5FE;
+Reference = R2;
+ValeurCmp = 33;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F7760B1;
+Reference = R3;
+ValeurCmp = 100k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F775149;
+Reference = R4;
+ValeurCmp = 1k5;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F776000;
+Reference = R5;
+ValeurCmp = 100k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F775FED;
+Reference = R6;
+ValeurCmp = 47;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F64DD23;
+Reference = R7;
+ValeurCmp = 1M;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F77609E;
+Reference = R8;
+ValeurCmp = 47;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F64E012;
+Reference = R10;
+ValeurCmp = 470;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F774FE9;
+Reference = U1;
+ValeurCmp = 74LV125AD;
+IdModule  = SO14N;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F64DCF8;
+Reference = U2;
+ValeurCmp = MC9S08JS16CWJ;
+IdModule  = SO20L;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F64DD38;
+Reference = Y1;
+ValeurCmp = 12MHz;
+IdModule  = HC-49S;
+EndCmp
+
+EndListe

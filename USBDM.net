@@ -1,0 +1,241 @@
+# EESchema Netlist Version 1.1 created  Wed 11 Apr 2012 12:43:44 PM EDT
+(
+ ( /4F77507F C1 C1 100nF
+  ( 1 GND )
+  ( 2 /USB_5v )
+ )
+ ( /4F64DD4D C1 C2 18pF
+  ( 1 GND )
+  ( 2 N-000018 )
+ )
+ ( /4F64DD56 C1 C4 18pF
+  ( 1 GND )
+  ( 2 N-000017 )
+ )
+ ( /4F774587 cap-master-TT-050-080 C5 10uF/10V
+  ( 1 /USB_5v )
+  ( 2 GND )
+ )
+ ( /4F77456F cap-master-TT-050-080 C6 10uF/10V
+  ( 1 N-000023 )
+  ( 2 GND )
+ )
+ ( /4F774522 C1 C7 100nF
+  ( 1 /USB_5v )
+  ( 2 GND )
+ )
+ ( /4F77453A C1 C8 470nF
+  ( 1 N-000023 )
+  ( 2 GND )
+ )
+ ( /4F64DFEB LED-3MM D1 LED
+  ( 1 N-000024 )
+  ( 2 /LED )
+ )
+ ( /4F64E5E7 USB_A P1 USB-A-H
+  ( 1 /USB_5v )
+  ( 2 N-000025 )
+  ( 3 N-000026 )
+  ( 4 GND )
+  ( 5 GND )
+  ( 6 GND )
+ )
+ ( /4F775AE5 pin_array_3x2 P2 BDM_3X2
+  ( 1 N-000011 )
+  ( 2 GND )
+  ( 3 ? )
+  ( 4 /T_RST )
+  ( 5 ? )
+  ( 6 /USB_5v )
+ )
+ ( /4F64E046 PIN_ARRAY_1 P3 BL
+  ( 1 /LED )
+ )
+ ( /4F64E646 R3-LARGE_PADS R1 33
+  ( 1 /USBDN )
+  ( 2 N-000025 )
+ )
+ ( /4F64E5FE R3-LARGE_PADS R2 33
+  ( 1 /USBDP )
+  ( 2 N-000026 )
+ )
+ ( /4F7760B1 R3-LARGE_PADS R3 100k
+  ( 1 /USB_5v )
+  ( 2 /T_RST )
+ )
+ ( /4F775149 R1 R4 1k5
+  ( 1 /BKGD_I )
+  ( 2 /USB_5v )
+ )
+ ( /4F776000 R3-LARGE_PADS R5 100k
+  ( 1 /USB_5v )
+  ( 2 N-000011 )
+ )
+ ( /4F775FED R3-LARGE_PADS R6 47
+  ( 1 /BKGD_IO )
+  ( 2 N-000011 )
+ )
+ ( /4F64DD23 R3-LARGE_PADS R7 1M
+  ( 1 N-000018 )
+  ( 2 N-000017 )
+ )
+ ( /4F77609E R3-LARGE_PADS R8 47
+  ( 1 /RST_IO )
+  ( 2 /T_RST )
+ )
+ ( /4F64E012 R1 R10 470
+  ( 1 /USB_5v )
+  ( 2 N-000024 )
+ )
+ ( /4F774FE9 SO14N U1 74LV125AD
+  ( 1 /RST_IO )
+  ( 2 /RST_IO )
+  ( 3 /RST_I )
+  ( 4 /BKGD_DRV )
+  ( 5 /BKGD_O )
+  ( 6 /BKGD_IO )
+  ( 7 GND )
+  ( 8 /BKGD_I )
+  ( 9 /BKGD_IO )
+  ( 10 /BKGD_IO )
+  ( 11 /RST_IO )
+  ( 12 /RST_O )
+  ( 13 /RST_O )
+  ( 14 /USB_5v )
+ )
+ ( /4F64DCF8 SO20L U2 MC9S08JS16CWJ
+  ( 1 N-000018 )
+  ( 2 N-000017 )
+  ( 3 GND )
+  ( 4 /BKGD_DRV )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 /LED )
+  ( 8 /BKGD_I )
+  ( 9 /BKGD_DRV )
+  ( 10 ? )
+  ( 11 /RST_I )
+  ( 12 /RST_O )
+  ( 13 /USB_5v )
+  ( 14 GND )
+  ( 15 /USBDN )
+  ( 16 /USBDP )
+  ( 17 N-000023 )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 /BKGD_O )
+ )
+ ( /4F64DD38 HC-49S Y1 12MHz
+  ( 1 N-000018 )
+  ( 2 N-000017 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ CP*
+ SM*
+$endlist
+$component C6
+ CP*
+ SM*
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
