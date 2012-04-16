@@ -4,7 +4,7 @@ JAG 04/16/2012 1500 EST (GMT-0500)
 
 ### Introduction
 
-I did not invent the USBDM nor the TBDML or OSBDM that my version of the USBDM PCB is based on, I merely arranged the components so that a home user could etch and solder the components to create a USBDM at home.
+I did not invent the USBDM nor the TBDML or OSBDM that my version of the USBDM PCB is based on, I merely arranged the components so that a home user could etch and solder the components to create a USBDM at home.  This device allows the user to program a blank Freescale microcontroller or to debug the operation of a Freescale microcontroller through the microcontroller's BDM (Background Debug Mode) port.
 
 ### Goals
 
