@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: Sun 29 Jan 2012 03:36:46 AM EST
+#
+$CMP USB_B
+D USB Connector
+K USB usb CONNECTOR connector
+$ENDCMP
+#
+#End Doc Library
